@@ -1,2 +1,2 @@
 # MyCPstuff
-Compilation of my competetive programming stuff
+Compilation of my competitive programming stuff
