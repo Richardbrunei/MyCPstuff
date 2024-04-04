@@ -1,0 +1,2 @@
+#C1. Bessie's Birthday Cake (Easy Version)
+If we only consider polygon created by the X points, there would be X-2 total triangles. One way we could form these triangles is by choosing a point and drawing lines connecting it with the other points. However, the points could make triangles with the other points in the regular polygon. This only happens when the difference between the points is 2. Each time that happens, add 1 to the answer.
