@@ -1,1 +1,2 @@
-
+# Problem 2. Walking Along a Fence
+Firstly, observe that the shortest distance is the minimum of a path from the start to the finish and the perimeter minus that distance. Therefore, we first calculate the perimeter. This is helped by the fact that the fence posts' coordinates are given in order. We can create a 2D array to store the distance of each point on the fence from a arbitary starting point. The distance between each points is the start distance subtracted from the end distance. Using this distance we can find the answer.
