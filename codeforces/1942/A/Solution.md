@@ -1,1 +1,2 @@
 # A. Farmer John's Challenge
+If n==k then all the cyclic shifts will have to be sorted. Therefore, all the elements must be the same. If k==1, then one of the shifts are sorted. We can put 1 2 3 4 5 ... n. If 1<k<n, then there would be no solutions. Let array A be sorted. Therefore A_1<=A_2<=A_3...<=A_n. After a cyclic shift we have A_n as the first element. However, A_n>A_1. Therfore it wouldn't be sorted, so there would be no soloutions for 1<k<n.
