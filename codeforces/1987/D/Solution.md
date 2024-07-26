@@ -1,0 +1,2 @@
+# D. World is Mine
+Alice's strategy is to always eat the cake with the minimum tastiness. For Bob to stop Alice from eating a cake with a certain tastiness value, he will have to eat all the cakes with a certain tastiness. We create a frequency array F. We loop through F and check if we can eat all the cakes before Alice gets there. If we couldn't eat the cakes in time, we check if we can eat these cakes instead of eating previous cakes. We can use a Heap/Priority queue to do this.
