@@ -1,0 +1,2 @@
+# D. Tree Jumps
+We can try a dynamic programming approach. Let $dp[i]$ be the number of paths to get to vertex $i$. Naively finding each $dp[i]$ is too slow. Instead, we can see that each vertex is accessing all the vertexes of the previous layer except for its parent. We use DFS to find the layers and for each layer we calculate the $dp$ and store the value of the sum of dp on the current layer. Special cases are the root and the second layer. Otherwise the dp formula id $dp[i]=previousSum-dp[p[i]]$
